@@ -16,6 +16,24 @@ body {
   justify-content: center;
 }
 /* End: Global Styles */
+
+.text {
+  text-transform: uppercase;
+}
+
 .logo {
   width: 150px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.open-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
